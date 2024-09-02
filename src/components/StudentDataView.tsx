@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import { Student } from "../types"; // Ensure this import path is correct
+import { Student } from "../types";
 
 type StudentGridViewProps = {
   onSelectStudent: (student: Student) => void;
