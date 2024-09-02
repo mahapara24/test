@@ -1,6 +1,5 @@
 import React from "react";
-import { Student } from "../types"; // Ensure this import path is correct
-
+import { Student } from "../types";
 type ExpandedStudentViewProps = {
   student: Student;
   onClose: () => void;
