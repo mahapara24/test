@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 const HorizontalMenu = () => {
   const [isSubMenuOpen, setIsSubMenuOpen] = useState(false);
